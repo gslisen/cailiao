@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YFi-Zu-lFi">
+                                <rect key="frame" x="150" y="101" width="48" height="46"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EfH-h3-8LA">
+                                <rect key="frame" x="190" y="259" width="49" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.70840330740000002" blue="0.57504111840000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hk5-qq-68a">
+                                <rect key="frame" x="283" y="248" width="43" height="40"/>
+                                <color key="backgroundColor" red="0.56206311679999998" green="0.70022101150000005" blue="0.4243164062" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrI-S3-4XP">
+                                <rect key="frame" x="119" y="336" width="52" height="48"/>
+                                <color key="backgroundColor" red="0.78282828280000005" green="0.78282828280000005" blue="0.78282828280000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ctx-fi-IQN">
+                                <rect key="frame" x="315" y="119" width="52" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.20763480279999999" blue="0.1968365161" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="YFi-Zu-lFi" id="ksW-N0-cSt"/>
+                        <outlet property="view2" destination="ctx-fi-IQN" id="N3s-y1-fDZ"/>
+                        <outlet property="view3" destination="EfH-h3-8LA" id="BlK-A5-lPa"/>
+                        <outlet property="view4" destination="hk5-qq-68a" id="Fhi-ha-bQi"/>
+                        <outlet property="view5" destination="MrI-S3-4XP" id="sVk-dR-3pe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="327"/>
+        </scene>
+    </scenes>
+</document>
